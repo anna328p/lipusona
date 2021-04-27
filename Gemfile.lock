@@ -1,3 +1,19 @@
+GIT
+  remote: https://github.com/motevets/pathutil.git
+  revision: 3451a10c362fc867b20c7e471a551b31c40a0246
+  branch: fix-issue-4
+  specs:
+    pathutil (0.16.2)
+      forwardable-extended (~> 2.6)
+
+GIT
+  remote: https://github.com/olery/jekyll-slim.git
+  revision: 48c27ea4d5070b9d7313c21e91f9ce4e647b68bc
+  specs:
+    jekyll-slim (0.10.1)
+      jekyll (~> 3.1)
+      slim
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -222,8 +238,6 @@ GEM
     octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
-    pathutil (0.16.2)
-      forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
     racc (1.5.2)
     rb-fsevent (0.10.4)
@@ -246,9 +260,14 @@ GEM
       faraday (> 0.8, < 2.0)
     simpleidn (0.2.1)
       unf (~> 0.1.4)
+    slim (4.1.0)
+      temple (>= 0.7.6, < 0.9)
+      tilt (>= 2.0.6, < 2.1)
+    temple (0.8.2)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
+    tilt (2.0.10)
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
     tzinfo (1.2.9)
@@ -257,6 +276,7 @@ GEM
       unf_ext
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
+    webrick (1.7.0)
     zeitwerk (2.4.2)
 
 PLATFORMS
@@ -264,6 +284,9 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-slim!
+  pathutil!
+  webrick
 
 BUNDLED WITH
    2.1.4

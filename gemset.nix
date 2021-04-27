@@ -459,6 +459,19 @@
     };
     version = "1.4.0";
   };
+  jekyll-slim = {
+    dependencies = ["jekyll" "slim"];
+    groups = ["default"];
+    platforms = [];
+    source = {
+      fetchSubmodules = false;
+      rev = "48c27ea4d5070b9d7313c21e91f9ce4e647b68bc";
+      sha256 = "1c1xcjbfbgjfq0gv77i0xlxfbfxkiq18sgpa764kvifkhwc7qcbd";
+      type = "git";
+      url = "https://github.com/olery/jekyll-slim.git";
+    };
+    version = "0.10.1";
+  };
   jekyll-swiss = {
     groups = ["default"];
     platforms = [];
@@ -766,9 +779,11 @@
     groups = ["default"];
     platforms = [];
     source = {
-      remotes = ["https://rubygems.org"];
-      sha256 = "12fm93ljw9fbxmv2krki5k5wkvr7560qy8p4spvb9jiiaqv78fz4";
-      type = "gem";
+      fetchSubmodules = false;
+      rev = "3451a10c362fc867b20c7e471a551b31c40a0246";
+      sha256 = "1nmgzsbby6mvnyf5ic17nlwlzzalbngn61a6mk28462qqpwlyfg8";
+      type = "git";
+      url = "https://github.com/motevets/pathutil.git";
     };
     version = "0.16.2";
   };
@@ -918,6 +933,27 @@
     };
     version = "0.2.1";
   };
+  slim = {
+    dependencies = ["temple" "tilt"];
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0gjx30g84c82qzg32bd7giscvb4206v7mvg56kc839w9wjagn36n";
+      type = "gem";
+    };
+    version = "4.1.0";
+  };
+  temple = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "060zzj7c2kicdfk6cpnn40n9yjnhfrr13d0rsbdhdij68chp2861";
+      type = "gem";
+    };
+    version = "0.8.2";
+  };
   terminal-table = {
     dependencies = ["unicode-display_width"];
     groups = ["default"];
@@ -938,6 +974,16 @@
       type = "gem";
     };
     version = "0.3.6";
+  };
+  tilt = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0rn8z8hda4h41a64l0zhkiwz2vxw9b1nb70gl37h1dg2k874yrlv";
+      type = "gem";
+    };
+    version = "2.0.10";
   };
   typhoeus = {
     dependencies = ["ethon"];
@@ -988,6 +1034,16 @@
     source = {
       remotes = ["https://rubygems.org"];
       sha256 = "06i3id27s60141x6fdnjn5rar1cywdwy64ilc59cz937303q3mna";
+      type = "gem";
+    };
+    version = "1.7.0";
+  };
+  webrick = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "1d4cvgmxhfczxiq5fr534lmizkhigd15bsx5719r5ds7k7ivisc7";
       type = "gem";
     };
     version = "1.7.0";

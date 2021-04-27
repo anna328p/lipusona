@@ -1,0 +1,15 @@
+html
+  head
+    | {%- include head.slim -%}
+
+  body
+    header
+      | {%- include header.slim -%}
+
+    main.page-content aria-label="Content"
+      .container
+        section.content
+          | {{ content }}
+
+    footer
+      | {%- include footer.slim -%}
