@@ -1,0 +1,15 @@
+article.lesson
+  | {% assign l = include.lesson %}
+  h2.lesson-title
+    a.lesson-link href="{{ l.url }}"
+      | lesson {{ l.number }}: {{ l.name }}
+
+  .lesson-info
+    | {% if l.new_words %}
+    | {% include infobox.slim title="New words" content=l.new_words %}
+    | {% endif %}
+    | {% if l.new_grammar %}
+    | {% include infobox.slim title="New grammar" content=l.new_grammar %}
+    | {% endif %}
+
+  | {{ l.content }}

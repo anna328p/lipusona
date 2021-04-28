@@ -1,0 +1,21 @@
+.infobox {
+	border: 1px solid #ddd;
+	padding: 10px 10px 20px 10px;
+	margin: 10px;
+	min-width: 250px;
+
+	box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.ib-title {
+	line-height: 1;
+	text-align: center;
+	font-weight: bold;
+}
+
+.ib-list {
+	margin-top: 4pt;
+	margin-bottom: 0;
+	columns: 2;
+	list-style-type: none;
+}

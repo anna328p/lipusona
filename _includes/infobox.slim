@@ -1,0 +1,7 @@
+.infobox
+  p.ib-title
+    | {{ include.title }}
+  ul.ib-list
+    | {% for w in include.content %}
+    | <li>{{ w }}</li>
+    | {% endfor %}

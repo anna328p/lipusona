@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+section#intro
+  | {{ content }}
+section#lessons
+  | {% for lesson in site.lessons %}
+  | {% include lesson.slim lesson=lesson %}
+  | {% endfor %}

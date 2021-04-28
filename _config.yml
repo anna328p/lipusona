@@ -21,12 +21,19 @@ baseurl: ""
 url: "https://lipusona.ap5.dev"
 twitter_username: anna328p
 github_username:  anna328p
+discord: alienpirate5#3091
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-slim
+
+collections_dir: _content
+collections:
+  pages:
+  lessons:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
