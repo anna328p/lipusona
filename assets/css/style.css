@@ -31,6 +31,9 @@ p {
 @media only screen and (min-width: 993px) {
   .container {
     width: 70%; } }
+.card-shadow {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1); }
+
 .lesson-link {
   color: black; }
 
@@ -40,6 +43,19 @@ p {
   align-content: space-around;
   justify-content: space-around;
   margin: 10px -10px 20px -10px; }
+
+.vocab-list {
+  columns: 2 300px; }
+
+.wordbox {
+  display: block;
+  break-inside: avoid;
+  margin: 0 0 15px;
+  padding: 10px;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1); }
+
+.vocab-word {
+  font-style: italic; }
 
 .infobox {
   border: 1px solid #ddd;
