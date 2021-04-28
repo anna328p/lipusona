@@ -38,7 +38,7 @@ Some speakers stress particles, while others leave them unstressed.
 
 ### Other notes
 
-In this course, the sounds are defined using the [International Phonetic Alphabet][1] and General American English.
+In this course, the sounds are defined using the [International Phonetic Alphabet][1] and their equivalents in General American English.
 
 Sentences in toki pona start with lowercase letters, not uppercase.
 
