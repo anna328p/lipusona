@@ -24,28 +24,29 @@ footer { clear: both; }
 
 blockquote {
 	display: inline-block;
-	border-top: 1px solid #DDDDDD;
-	border-bottom: 1px solid #DDDDDD;
-	border-right: 1px solid #DDDDDD;
-	border-left: 6px solid grey;
-	background: #EEEEEE;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+	border-left: 6px solid #604080;
+	background: #E9E4EE;
 	padding: 0 2em 0 1em;
+	box-shadow: 0 1px 5px rgba(0,0,0,15%);
 }
 
 table {
 	border-collapse: collapse;
-	border: 1px solid #cccccc;
+	border: 1px solid #CCC;
 }
 
 th, td { padding: 0.4em; }
 
 th {
 	background-color: #D0D0D0;
-	border: 1px solid #BBBBBB;
+	border: 1px solid #BBB;
 }
 
 td {
-	border: 1px solid #CCCCCC;
+	border: 1px solid #CCC;
 }
 
 tbody tr:nth-child(odd) {
@@ -54,4 +55,8 @@ tbody tr:nth-child(odd) {
 
 tbody tr:nth-child(even) {
   background-color: #E4E4E4;
+}
+
+hr {
+	border-top: 1px solid gray;
 }

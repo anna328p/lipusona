@@ -32,7 +32,7 @@ The letter *j* is pronounced /j/, like the **y** in **y**ellow.
 
 ### Stress
 
-Words are always pronounced with the stress on the first syllable. For example, the word *toki* has stress on *to*, not *ki*.
+Words are always pronounced with the stress on the first syllable. For example, the word *soweli* has stress on *so*, not *we* or *li*.
 
 Some speakers stress particles, while others leave them unstressed.
 
