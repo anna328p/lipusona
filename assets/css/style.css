@@ -40,6 +40,26 @@ blockquote {
   background: #EEEEEE;
   padding: 0 2em 0 1em; }
 
+table {
+  border-collapse: collapse;
+  border: 1px solid #cccccc; }
+
+th, td {
+  padding: 0.4em; }
+
+th {
+  background-color: #D0D0D0;
+  border: 1px solid #BBBBBB; }
+
+td {
+  border: 1px solid #CCCCCC; }
+
+tbody tr:nth-child(odd) {
+  background-color: #F8F8F8; }
+
+tbody tr:nth-child(even) {
+  background-color: #E4E4E4; }
+
 /* Dogfalo/materialize // MIT */
 .container {
   margin: 0 auto;
