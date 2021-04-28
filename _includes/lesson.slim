@@ -1,41 +1,31 @@
 article.lesson
   | {% assign l = include.lesson %}
+
+  | {% if l.words %}
+  |   {% capture vocab %}
+  |     {% include vocab_list.slim words=l.words %}
+  |   {% endcapture %}
+  | {% endif %}
+
   h2.lesson-title
     a.lesson-link href="{{ l.url }}" id="{{ l.name }}"
       | lesson {{ l.number }}: {{ l.name }}
 
   section.lesson-info
     | {% if l.concepts %}
-    | {% include infobox.slim title="New concepts" content=l.concepts %}
+    |   {% include infobox.slim title="New concepts" content=l.concepts %}
     | {% endif %}
+
     | {% if l.grammar %}
-    | {% include infobox.slim title="New grammar" content=l.grammar %}
+    |   {% include infobox.slim title="New grammar" content=l.grammar %}
     | {% endif %}
+
     | {% if l.words %}
-    | {% include infobox.slim title="New words" content=l.words twocol=true %}
+    |   {% include infobox.slim title="New words" content=l.words twocol=true %}
     | {% endif %}
 
   section.lesson-content
     | {{ l.content }}
 
-  | {% if l.words %}
-  section.lesson-vocab
-    h3 New words from this lesson
-    dl.vocab-list
-      | {% for w in l.words %}
-      .wordbox
-        | {% assign entry = site.data.pu[w] %}
-        dt.vocab-word
-          | {{ w }}
-        hr
-
-        .vocab-deflist
-          | {% for def in entry %}
-          b.vocab-pos
-            | {{ def[0] }}
-          dd.vocab-def
-            | {{ def[1] }}
-          | {% endfor %}
-
-      | {% endfor %}
-  | {% endif %}
+  | {{ vocab }}
+  | {{ exercises }}

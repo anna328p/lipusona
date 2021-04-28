@@ -1,0 +1,19 @@
+section.lesson-vocab
+  h3 New words from this lesson
+  dl.vocab-list
+    | {% for w in include.words %}
+    .wordbox
+      | {% assign entry = site.data.pu[w] %}
+      dt.vocab-word
+        | {{ w }}
+      hr
+
+      .vocab-deflist
+        | {% for def in entry %}
+        b.vocab-pos
+          | {{ def[0] }}
+        dd.vocab-def
+          | {{ def[1] }}
+        | {% endfor %}
+
+    | {% endfor %}

@@ -24,6 +24,10 @@ footer { clear: both; }
 
 blockquote {
 	display: inline-block;
+	vertical-align: top;
+
+	max-width: 300px;
+
 	border-top: 1px solid #DDD;
 	border-bottom: 1px solid #DDD;
 	border-right: 1px solid #DDD;
@@ -31,6 +35,10 @@ blockquote {
 	background: #E9E4EE;
 	padding: 0 2em 0 1em;
 	box-shadow: 0 1px 5px rgba(0,0,0,15%);
+}
+
+blockquote > p::first-line {
+	font-style: italic;
 }
 
 table {
@@ -59,4 +67,18 @@ tbody tr:nth-child(even) {
 
 hr {
 	border-top: 1px solid gray;
+}
+
+aside {
+	display: block;
+	float: right;
+	max-width: 300px;
+
+	border-bottom: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+	border-left: 1px solid #DDD;
+	border-top: 6px solid #405080;
+	background: #E4E7EE;
+	padding: 0 2em 0 1em;
+	box-shadow: 0 1px 5px rgba(0,0,0,15%);
 }

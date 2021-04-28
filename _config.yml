@@ -32,6 +32,9 @@ plugins:
   - jekyll-feed
   - jekyll-slim
 
+kramdown:
+  parse_block_html: true
+
 collections_dir: _content
 collections:
   pages:

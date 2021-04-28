@@ -15,13 +15,17 @@ words:
   - ijo
   - lipu
   - ni
+  - kili
+  - moku
+
+exercises: words1
 ---
 
 ### Content words
 
 Most words in toki pona are _content words_. <dfn>Content words</dfn> are words that have a meaning and aren't just to provide the structure of the language. Content words can act as nouns, adjectives, or verbs depending on context. In this lesson, we'll look at using them as nouns and verbs.
 
-### _li_
+### Sentences with _li_
 
 A basic sentence in toki pona is structured like this:
 
@@ -57,7 +61,7 @@ toki pona words have many meanings:
 > lipu li pona.  
 > The book is good.
 
-Words aren't marked for number. This means words don't change depending on whether the subject is singular and plural.
+Words aren't marked for number. This means words don't change depending on whether the subject is singular or plural.
 
 > jan li pona.  
 > People are good.
