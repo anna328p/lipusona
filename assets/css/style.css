@@ -4,6 +4,9 @@
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600; }
 
+h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
+  color: black; }
+
 h1 {
   font-size: 40pt; }
 
@@ -13,11 +16,19 @@ h2 {
 p {
   line-height: 1.5; }
 
+footer {
+  clear: both; }
+
 .left {
   float: left; }
 
 .right {
   float: right; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
 
 /* Dogfalo/materialize // MIT */
 .container {
@@ -33,9 +44,6 @@ p {
     width: 70%; } }
 .card-shadow {
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1); }
-
-.lesson-link {
-  color: black; }
 
 .lesson-info {
   display: flex;
@@ -56,6 +64,9 @@ p {
 
 .vocab-word {
   font-style: italic; }
+
+nav.pagenav {
+  margin: auto; }
 
 .infobox {
   border: 1px solid #ddd;
