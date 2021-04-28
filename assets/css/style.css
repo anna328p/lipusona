@@ -1,5 +1,6 @@
-* {
-  font-family: 'Lexend', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; }
+body {
+  font-family: 'Lexend', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  width: auto; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600; }
@@ -29,6 +30,15 @@ footer {
   content: "";
   clear: both;
   display: table; }
+
+blockquote {
+  display: inline-block;
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+  border-left: 6px solid grey;
+  background: #EEEEEE;
+  padding: 0 2em 0 1em; }
 
 /* Dogfalo/materialize // MIT */
 .container {
