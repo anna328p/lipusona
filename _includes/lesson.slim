@@ -27,16 +27,14 @@ article.lesson
         | {% assign entry = site.data.pu[w] %}
         dt.vocab-word
           | {{ w }}
+        hr
 
-        table.vocab-deflist
+        .vocab-deflist
           | {% for def in entry %}
+          b.vocab-pos
+            | {{ def[0] }}
           dd.vocab-def
-            tr
-              td
-                b.vocab-pos
-                  | {{ def[0] }}
-              td
-                | {{ def[1] }}
+            | {{ def[1] }}
           | {% endfor %}
 
       | {% endfor %}
