@@ -1,7 +1,17 @@
 .infobox
   p.ib-title
     | {{ include.title }}
+
+  | {% if include.twocol %}
+  ul.ib-list.tc
+    | {% for w in include.content %}
+    | <li>{{ w }}</li>
+    | {% endfor %}
+
+  | {% else %}
   ul.ib-list
     | {% for w in include.content %}
     | <li>{{ w }}</li>
     | {% endfor %}
+
+  | {% endif %}

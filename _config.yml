@@ -35,6 +35,7 @@ plugins:
 collections_dir: _content
 collections:
   pages:
+    output: true
   lessons:
     output: true
 
