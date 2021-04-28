@@ -33,32 +33,36 @@ footer {
 
 blockquote {
   display: inline-block;
-  border-top: 1px solid #DDDDDD;
-  border-bottom: 1px solid #DDDDDD;
-  border-right: 1px solid #DDDDDD;
-  border-left: 6px solid grey;
-  background: #EEEEEE;
-  padding: 0 2em 0 1em; }
+  border-top: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+  border-right: 1px solid #DDD;
+  border-left: 6px solid #604080;
+  background: #E9E4EE;
+  padding: 0 2em 0 1em;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
 
 table {
   border-collapse: collapse;
-  border: 1px solid #cccccc; }
+  border: 1px solid #CCC; }
 
 th, td {
   padding: 0.4em; }
 
 th {
   background-color: #D0D0D0;
-  border: 1px solid #BBBBBB; }
+  border: 1px solid #BBB; }
 
 td {
-  border: 1px solid #CCCCCC; }
+  border: 1px solid #CCC; }
 
 tbody tr:nth-child(odd) {
   background-color: #F8F8F8; }
 
 tbody tr:nth-child(even) {
   background-color: #E4E4E4; }
+
+hr {
+  border-top: 1px solid gray; }
 
 /* Dogfalo/materialize // MIT */
 .container {
@@ -90,7 +94,10 @@ tbody tr:nth-child(even) {
   break-inside: avoid;
   margin: 0 0 15px;
   padding: 10px;
-  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1); }
+  background-color: #EEE4E4;
+  border: 1px solid #DDD;
+  border-left: 6px solid #804040;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
 
 .vocab-word {
   font-style: italic; }
@@ -100,10 +107,12 @@ nav.pagenav {
 
 .infobox {
   border: 1px solid #ddd;
+  border-top: 6px solid #408080;
   padding: 10px 10px 20px 10px;
   margin: 10px;
   min-width: 250px;
-  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  background-color: #E4EEEE; }
 
 .ib-title {
   line-height: 1;
