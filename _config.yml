@@ -14,11 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: lipu sona
-email: anna328p@gmail.com
 description: >-
   o kama sona e toki pona lon lipu sona ni!
+image: lipusona.png
+
 baseurl: ""
 url: "https://lipusona.ap5.dev"
+
+email: anna328p@gmail.com
 twitter_username: anna328p
 github_username:  anna328p
 discord: alienpirate5#3091
