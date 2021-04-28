@@ -1,7 +1,7 @@
 article.lesson
   | {% assign l = include.lesson %}
   h2.lesson-title
-    a.lesson-link href="{{ l.url }}"
+    a.lesson-link href="{{ l.url }}" id="{{ l.name }}"
       | lesson {{ l.number }}: {{ l.name }}
 
   section.lesson-info
@@ -28,12 +28,16 @@ article.lesson
         dt.vocab-word
           | {{ w }}
 
-        | {% for def in entry %}
-        dd.vocab-def
-          b.vocab-pos
-            | {{ def[0] }}
-          = ": "
-          | {{ def[1] }}
-        | {% endfor %}
+        table.vocab-deflist
+          | {% for def in entry %}
+          dd.vocab-def
+            tr
+              td
+                b.vocab-pos
+                  | {{ def[0] }}
+              td
+                | {{ def[1] }}
+          | {% endfor %}
+
       | {% endfor %}
   | {% endif %}
