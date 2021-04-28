@@ -1,0 +1,60 @@
+* {
+  font-family: 'Lexend', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600; }
+
+h1 {
+  font-size: 40pt; }
+
+h2 {
+  font-size: 24pt; }
+
+p {
+  line-height: 1.5; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+/* Dogfalo/materialize // MIT */
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%; }
+
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 85%; } }
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 70%; } }
+.lesson-link {
+  color: black; }
+
+.lesson-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  margin: -10px -10px 0; }
+
+.infobox {
+  border: 1px solid #ddd;
+  padding: 10px 10px 20px 10px;
+  margin: 10px;
+  min-width: 250px;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1); }
+
+.ib-title {
+  line-height: 1;
+  text-align: center;
+  font-weight: bold; }
+
+.ib-list {
+  margin-top: 4pt;
+  margin-bottom: 0;
+  columns: 2;
+  list-style-type: none; }
