@@ -57,7 +57,7 @@ Words aren't marked for number. This means words don't change depending on wheth
 
 ### Definitions
 
-Words are usually defined as only one part of speech: as a noun, a verb, or an adjective. However, nearly any content word can be used as a noun!
+Words are usually defined as only one part of speech: as a noun, a verb, or an adjective. However, nearly any content word can be used as any part of speech! Here, I'm using "toki" as a noun.
 
 > ni li toki.  
 > This is a language.  
