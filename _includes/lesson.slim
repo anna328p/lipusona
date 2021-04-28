@@ -4,15 +4,36 @@ article.lesson
     a.lesson-link href="{{ l.url }}"
       | lesson {{ l.number }}: {{ l.name }}
 
-  .lesson-info
-    | {% if l.new_concepts %}
-    | {% include infobox.slim title="New concepts" content=l.new_concepts %}
+  section.lesson-info
+    | {% if l.concepts %}
+    | {% include infobox.slim title="New concepts" content=l.concepts %}
     | {% endif %}
-    | {% if l.new_grammar %}
-    | {% include infobox.slim title="New grammar" content=l.new_grammar %}
+    | {% if l.grammar %}
+    | {% include infobox.slim title="New grammar" content=l.grammar %}
     | {% endif %}
-    | {% if l.new_words %}
-    | {% include infobox.slim title="New words" content=l.new_words twocol=true %}
+    | {% if l.words %}
+    | {% include infobox.slim title="New words" content=l.words twocol=true %}
     | {% endif %}
 
-  | {{ l.content }}
+  section.lesson-content
+    | {{ l.content }}
+
+  | {% if l.words %}
+  section.lesson-vocab
+    h3 new words
+    dl.vocab-list
+      | {% for w in l.words %}
+      .wordbox
+        | {% assign entry = site.data.pu[w] %}
+        dt.vocab-word
+          | {{ w }}
+
+        | {% for def in entry %}
+        dd.vocab-def
+          b.vocab-pos
+            | {{ def[0] }}
+          = ": "
+          | {{ def[1] }}
+        | {% endfor %}
+      | {% endfor %}
+  | {% endif %}
