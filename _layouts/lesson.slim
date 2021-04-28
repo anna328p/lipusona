@@ -1,0 +1,34 @@
+---
+layout: default
+---
+| {% assign lesson = site.lessons | where: 'number', page.number %}
+
+| {% for l in lesson %}
+|   {% include lesson.slim lesson=l %}
+| {% endfor %}
+
+| {% if page.number > 0 %}
+|   {% assign prev = page.number | minus:1 %}
+|   {% assign pl = site.lessons[prev] %}
+| {% endif %}
+
+| {% assign last = site.lessons | size | minus:1%}
+| {% if page.number < last %}
+|   {% assign next = page.number | plus:1 %}
+|   {% assign nl = site.lessons[next] %}
+| {% endif %}
+
+| {% if pl or nl %}
+hr
+nav.pagenav
+  | {% if pl %}
+  .pagenav-prev.left
+    a href="{{ pl.url }}"
+      | previous lesson
+  | {% endif %}
+  | {% if nl %}
+  .pagenav-next.right
+    a href="{{ nl.url }}"
+      | next lesson
+  | {% endif %}
+  | {% endif %}
