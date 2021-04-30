@@ -82,3 +82,35 @@ aside {
 	padding: 0 2em 0 1em;
 	box-shadow: 0 1px 5px rgba(0,0,0,15%);
 }
+
+.lesson-list {
+	list-style-type: none;
+	margin: -1em 0 1em 0;
+	padding: 0;
+}
+
+.lesson-list > li {
+	display: inline-block;
+	line-height: 325%;
+	margin: 0;
+	padding: 0;
+}
+
+.lesson-list > li > a {
+	padding: 0.5em 0.9em 0.5em 0.85em;
+	margin: 0.5em;
+
+	border-bottom: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+	border-top: 1px solid #DDD;
+	border-left: 6px solid #608040;
+	background: #EBF2E4;
+	box-shadow: 0 1px 5px rgba(0,0,0,15%);
+
+	color: black;
+}
+
+.lesson-sep {
+	margin: 1.5em 2em -0.5em;
+	border: 1px dashed gray;
+}

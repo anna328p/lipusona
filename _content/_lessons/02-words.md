@@ -31,7 +31,7 @@ A basic sentence in toki pona is structured like this:
 
 > [x1] li [x2].
 
-The word _li_ marks the subject of the sentence. This type of sentence means "[x1] is [x2]" or "[x1] does [x2]".
+This type of sentence means "[x1] is [x2]" or "[x1] does [x2]".
 
 > jan li moku.  
 > The person eats.  
@@ -44,7 +44,7 @@ The word _li_ marks the subject of the sentence. This type of sentence means "[x
 > jan li pona.  
 > The person is good.
 
-_li_ does not mean "to be".
+The word _li_ marks the predicate of the sentence. _li_ does not mean "to be".
 
 Unlike some other languages, toki pona does not use articles. There are no words like "a" or "the".
 

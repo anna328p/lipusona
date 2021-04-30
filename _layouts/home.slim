@@ -5,6 +5,15 @@ layout: default
 section#intro
   | {{ content }}
 section#lessons
+  nav#toc
+    h3 Table of contents
+    ul.lesson-list
+      | {% for lesson in site.lessons %}
+      li: a.lesson-link href="{{ lesson.url }}"
+        | {{ lesson.number }}: {{ lesson.name }}
+      | {% endfor %}
+
   | {% for lesson in site.lessons %}
+  hr.lesson-sep
   | {% include lesson.slim lesson=lesson %}
   | {% endfor %}
