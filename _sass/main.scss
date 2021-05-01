@@ -1,6 +1,20 @@
+@font-face {
+    font-family: 'linja suwi';
+    src: url('/assets/fonts/linjasuwi.woff2') format('woff2'),
+        url('/assets/fonts/linjasuwi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
 	font-family: 'Lexend', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 	width: auto;
+}
+
+.sp {
+	font-family: 'linja suwi';
+	font-size: 150%;
 }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 600; }

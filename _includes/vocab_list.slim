@@ -5,7 +5,11 @@ section.lesson-vocab
     .wordbox
       | {% assign entry = site.data.pu[w] %}
       dt.vocab-word
-        | {{ w }}
+        span.inli
+          | {{ w }}
+        = ' '
+        span.sp
+          | {{ w }}
       hr
 
       .vocab-deflist

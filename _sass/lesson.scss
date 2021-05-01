@@ -26,7 +26,18 @@
 }
 
 .vocab-word {
+	vertical-align: middle;
+}
+
+.vocab-word > .sp {
+	line-height: 1%;
+	vertical-align: middle;
+	margin-left: 2px;
+}
+
+.vocab-word > .inli {
 	font-style: italic;
+	vertical-align: middle;
 }
 
 nav.pagenav {
