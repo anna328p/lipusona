@@ -34,7 +34,7 @@ In toki pona, there are three pronouns: _mi_, _sina_, and _ona_.
 > you, your
 
 > ona  
-> he, she, they
+> they, she, he, it
 
 _mi_ or _sina_ are exceptions to the _li_ sentence structure. When the subject of a sentence is only _mi_ or _sina_, don't use _li_.
 

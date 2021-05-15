@@ -38,7 +38,7 @@ This type of sentence means "[x1] is [x2]" or "[x1] does [x2]".
 > The person is food.
 
 > ni li toki.  
-> This one talks.  
+> This talks.  
 > This is a language.
 
 > jan li pona.  
@@ -56,7 +56,9 @@ toki pona words have many meanings:
 > The being fixes something.
 
 > jan li lipu.  
-> The person is flat.
+> The person is flat.  
+> The person flattens something.  
+> The person is a book.
 
 > lipu li pona.  
 > The book is good.  

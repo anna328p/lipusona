@@ -57,10 +57,13 @@ If you want to call or address a particular person, use the vocative particle _o
 > jan Netan o!  
 > Nathan!
 
-If you want to tell someone to do something, use the _o_:
+If you want to tell someone to do something, use _o_:
 
 > o pali e leko ni.  
 > Build these stairs.
+
+> o lape.  
+> Go to sleep.
 
 You can combine these two uses, to tell someone to do something, address someone, or express a wish or desire.
 
