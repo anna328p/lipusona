@@ -44,14 +44,14 @@ footer {
 blockquote {
   display: inline-block;
   vertical-align: top;
-  max-width: 300px;
-  border-top: 1px solid #DDD;
-  border-bottom: 1px solid #DDD;
-  border-right: 1px solid #DDD;
-  border-left: 6px solid #604080;
-  background: #E9E4EE;
+  max-width: 350px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  border: 1px solid #DDD;
+    border-left: 6px solid #614181;
+  background-color: #e8e3ed;
   padding: 0 2em 0 1em;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
+  margin-left: 2em;
+  margin-right: 1em; }
 
 blockquote > p::first-line {
   font-style: italic; }
@@ -82,14 +82,13 @@ hr {
 aside {
   display: block;
   float: right;
-  max-width: 300px;
-  border-bottom: 1px solid #DDD;
-  border-right: 1px solid #DDD;
-  border-left: 1px solid #DDD;
-  border-top: 6px solid #405080;
-  background: #E4E7EE;
-  padding: 0 2em 0 1em;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
+  max-width: 350px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  border: 1px solid #DDD;
+    border-top: 6px solid #415181;
+  background-color: #e3e6ed;
+  margin: 1em 0;
+  padding: 0 2em 0 1em; }
 
 .lesson-list {
   list-style-type: none;
@@ -105,12 +104,10 @@ aside {
 .lesson-list > li > a {
   padding: 0.5em 0.9em 0.5em 0.85em;
   margin: 0.5em;
-  border-bottom: 1px solid #DDD;
-  border-right: 1px solid #DDD;
-  border-top: 1px solid #DDD;
-  border-left: 6px solid #608040;
-  background: #EBF2E4;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  border: 1px solid #DDD;
+    border-left: 6px solid #618141;
+  background-color: #e8ede3;
   color: black; }
 
 .lesson-sep {
@@ -144,10 +141,10 @@ aside {
   break-inside: avoid;
   margin: 0 0 15px;
   padding: 10px;
-  background-color: #EEE4E4;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
   border: 1px solid #DDD;
-  border-left: 6px solid #804040;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
+    border-left: 6px solid #814141;
+  background-color: #ede3e3; }
 
 .vocab-word {
   vertical-align: middle; }
@@ -165,13 +162,13 @@ nav.pagenav {
   margin: auto; }
 
 .infobox {
-  border: 1px solid #ddd;
-  border-top: 6px solid #408080;
   padding: 10px 10px 20px 10px;
   margin: 10px;
   min-width: 250px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-  background-color: #E4EEEE; }
+  border: 1px solid #DDD;
+    border-top: 6px solid #418181;
+  background-color: #e3eded; }
 
 .ib-title {
   line-height: 1;
