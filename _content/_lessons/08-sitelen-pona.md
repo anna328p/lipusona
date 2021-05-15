@@ -42,14 +42,14 @@ The examples in this lesson will all have sitelen pona transcriptions. The sitel
 > <span class="sp">ilolianteekiwentawako.</span>  
 > The machine makes the rocks into powder.
 
+> lupa li lon tomo mi.    
+> <span class="sp">lupalilontomoni</span>  
+> On my house, there is a door.
+
 To write a name or a foreign word in sitelen pona, for each letter in the word, write a character for a word that starts with that letter, then draw a rectangle or cartouche around it. You can choose these characters to be representative of you or the thing you're naming.
 
 > jan Itan li tan tomo lon nena.  
 > <span class="sp">jan[ijotokiantenasa]litantomolonnena.</span>  
 > Ethan is from a house on a hill.
-
-> lupa li lon tomo ni.  
-> <span class="sp">lupalilontomoni</span>  
-> On this house, there was a door.
 
 [linja suwi]: https://linjasuwi.ap5.dev
