@@ -2,6 +2,9 @@
 number: 7
 name: prepositions
 
+concepts:
+  - location words
+
 grammar:
   - prepositions
 
@@ -20,6 +23,10 @@ words:
 
 exercises: prepositions
 ---
+
+### Location words
+
+The words _poka_, _monsi_, _anpa_, _sewi_, and _sinpin_ are all used to indicate locations.
 
 ### Prepositions
 

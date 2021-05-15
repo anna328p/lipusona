@@ -15,6 +15,7 @@ words:
   - tonsi
   - meli
   - mije
+  - nimi
   - seme
   - anu
   - pakala
@@ -117,8 +118,8 @@ The word _anu_ can also mean "or".
 
 For more freeform questions, insert _seme_ in place of what you want to know.
 
-> moku ni li seme?  
-> What is this food?
+> nimi sina li seme?  
+> What's your name?
 
 > ijo li seme e jan?  
 > What's that object doing to the person?
