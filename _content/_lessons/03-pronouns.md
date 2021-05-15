@@ -47,7 +47,7 @@ Here's some examples of sentences with pronouns:
 > mi utala.  
 > I fight.
 
-> ona li pana.  
+> ona li moku.  
 > She eats.
 
 > ni li ona.  
@@ -61,6 +61,9 @@ In toki pona, a transitive verb's object is marked with _e_:
 
 > jan li weka e ijo.  
 > The person throws away something.
+
+> sina pana e lipu.  
+> You give books. 
 
 > mi open e lipu.  
 > I open a book.
