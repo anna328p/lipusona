@@ -1,11 +1,9 @@
 .infobox {
-	border: 1px solid #ddd;
-	border-top: 6px solid #408080;
 	padding: 10px 10px 20px 10px;
 	margin: 10px;
 	min-width: 250px;
-	box-shadow: 0 1px 5px rgba(0,0,0,15%);
-	background-color: #E4EEEE;
+
+	@include card(top, 180);
 }
 
 .ib-title {

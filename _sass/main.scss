@@ -7,6 +7,24 @@
     font-display: swap;
 }
 
+
+@function fgcolor($hue) {
+	@return hsl($hue, 33%, 38%);
+}
+
+@function bgcolor($hue) {
+	@return hsl($hue, 21%, 91%);
+}
+
+@mixin card($side, $hue) {
+	box-shadow: 0 1px 5px rgba(0,0,0,15%);
+	border: 1px solid #DDD {
+		#{$side}: 6px solid fgcolor($hue);
+	}
+	background-color: bgcolor($hue);
+}
+
+
 body {
 	font-family: 'Lexend', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 	width: auto;
@@ -40,15 +58,12 @@ blockquote {
 	display: inline-block;
 	vertical-align: top;
 
-	max-width: 300px;
+	max-width: 350px;
 
-	border-top: 1px solid #DDD;
-	border-bottom: 1px solid #DDD;
-	border-right: 1px solid #DDD;
-	border-left: 6px solid #604080;
-	background: #E9E4EE;
+	@include card(left, 270);
 	padding: 0 2em 0 1em;
-	box-shadow: 0 1px 5px rgba(0,0,0,15%);
+	margin-left: 2em;
+	margin-right: 1em;
 }
 
 blockquote > p::first-line {
@@ -86,15 +101,11 @@ hr {
 aside {
 	display: block;
 	float: right;
-	max-width: 300px;
+	max-width: 350px;
 
-	border-bottom: 1px solid #DDD;
-	border-right: 1px solid #DDD;
-	border-left: 1px solid #DDD;
-	border-top: 6px solid #405080;
-	background: #E4E7EE;
+	@include card(top, 225);
+	margin: 1em 0;
 	padding: 0 2em 0 1em;
-	box-shadow: 0 1px 5px rgba(0,0,0,15%);
 }
 
 .lesson-list {
@@ -114,13 +125,7 @@ aside {
 	padding: 0.5em 0.9em 0.5em 0.85em;
 	margin: 0.5em;
 
-	border-bottom: 1px solid #DDD;
-	border-right: 1px solid #DDD;
-	border-top: 1px solid #DDD;
-	border-left: 6px solid #608040;
-	background: #EBF2E4;
-	box-shadow: 0 1px 5px rgba(0,0,0,15%);
-
+	@include card(left, 90);
 	color: black;
 }
 

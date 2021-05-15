@@ -6,6 +6,8 @@ concepts:
   - the alphabet
   - consonants
   - vowels
+
+exercises: phonology
 ---
 
 In toki pona, there are fourteen different phonemes (sounds), each represented by one letter. They were carefully selected so that speakers of many languages will know them.
