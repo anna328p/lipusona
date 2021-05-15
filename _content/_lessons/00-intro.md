@@ -14,7 +14,7 @@ toki pona is designed to be easy to use and learn; people have been said to lear
 
 However, toki pona has its limitations. It's very difficult (though possible) to talk about scientific concepts or translate jargon-heavy text. Because words have such a wide range of semantic meanings, there is ambiguity; some sentences can be interpreted as two completely opposite meanings.
 
-toki pona is highly dependent on context. There are no fixed phrases for things or concepts, meaning that depending on perspective, the same thing or idea may be described many different ways by different people. Even the grammar is flexible. Words cover a wide range of meanings; for example, there is one word that covers _fruit_, _berry_, and _apple_; _want_ and _need_; _strong_ and _powerful_.
+toki pona is highly dependent on context. There are no fixed phrases for things or concepts, meaning that depending on perspective, the same thing or idea may be described many different ways by different people. Even the grammar is flexible. Words cover a wide range of meanings; for example, there is one word that covers _fruit_, _berry_, and _apple_; one word for _want_ and _need_; one word for _strong_ and _powerful_.
 
 ### Differences in this course
 
