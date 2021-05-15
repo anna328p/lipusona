@@ -100,19 +100,15 @@ Some people use _lon_ for "yes" and _ala_ for "no".
 
 #### x anu seme?
 
-<aside>
-Some people use _anu_ as a content word meaning "choice".
-</aside>
+_anu_ means "or". (Some people use _anu_ as a content word meaning "choice".)
 
-You can also append the form _anu seme_ ("or what?") to the end of your sentence.
+You can append the form _anu seme_ ("or what?") to the end of your sentence.
 
 > moku li pona anu seme?  
 > Is the food good? ("The food is good or what?")
 
 > lipu li pakala anu seme?  
 > Is the book damaged? ("The book is broken or what?")
-
-The word _anu_ can also mean "or".
 
 #### x seme?
 
