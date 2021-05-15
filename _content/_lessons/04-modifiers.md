@@ -28,7 +28,7 @@ An adjective is a word used to describe a noun. Content words can act as adjecti
 
 ### Modifier phrases
 
-You can put an adjective _after_ another word to modify it. (This is called head-initial order. This is the opposite order from other languages, like English.) You can modify nouns, verbs, or other adjectives.
+You can put an adjective _after_ another word to modify it. (This is called head-initial order. This is the opposite order from some other languages, like English.) You can modify nouns, verbs, or other adjectives.
 
 > ijo suli  
 > big thing
