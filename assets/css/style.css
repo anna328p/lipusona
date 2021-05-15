@@ -87,8 +87,8 @@ aside {
   border: 1px solid #DDD;
     border-top: 6px solid #415181;
   background-color: #e3e6ed;
-  margin: 1em 0;
-  padding: 0 2em 0 1em; }
+  margin: 1em 0 1em 1em;
+  padding: 0 1em 0 1em; }
 
 .lesson-list {
   list-style-type: none;
