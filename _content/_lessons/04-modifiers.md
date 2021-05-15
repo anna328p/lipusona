@@ -69,3 +69,11 @@ When the words _mi_ and _sina_ are used with a modifier, use the word _li_ to ma
 
 > mi mute li pali.  
 > We work.
+
+You can use multiple modifiers for the same word. In that case, modifiers affect the whole phrase before them.
+
+> lipu majuna  
+> the old book
+
+> lipu majuna ala  
+> no old books

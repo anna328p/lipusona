@@ -104,8 +104,8 @@ aside {
 	max-width: 350px;
 
 	@include card(top, 225);
-	margin: 1em 0;
-	padding: 0 2em 0 1em;
+	margin: 1em 0 1em 1em;
+	padding: 0 1em 0 1em;
 }
 
 .lesson-list {

@@ -17,10 +17,9 @@ words:
   - mije
   - seme
   - anu
-  - kulupu
+  - pakala
   - ma
   - tomo
-  - nasin
 
 exercises: names
 ---
@@ -100,13 +99,19 @@ Some people use _lon_ for "yes" and _ala_ for "no".
 
 #### x anu seme?
 
-You can also append the form _anu seme_ ("or what?") to the end of your sentence
+<aside>
+Some people use _anu_ as a content word meaning "choice".
+</aside>
+
+You can also append the form _anu seme_ ("or what?") to the end of your sentence.
 
 > moku li pona anu seme?  
 > Is the food good? ("The food is good or what?")
 
-> lipu li open anu seme?  
-> Is the book open? ("The book is open or what?")
+> lipu li pakala anu seme?  
+> Is the book damaged? ("The book is broken or what?")
+
+The word _anu_ can also mean "or".
 
 #### x seme?
 
