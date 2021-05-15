@@ -59,7 +59,7 @@ toki pona words have many meanings:
 > The person is flat.
 
 > lipu li pona.  
-> The book is good.
+> The book is good.  
 > The paper is repaired.
 
 Words aren't marked for number. This means words don't change depending on whether the subject is singular or plural.
